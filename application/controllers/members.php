@@ -41,6 +41,7 @@ class Members extends CI_Controller {
 		
 		$data['title'] = 'Create a member';
 		
+		
 		$this->form_validation->set_rules('name', 'Name', 'required');
 		$this->form_validation->set_rules('email', 'Email', 'required');
 
